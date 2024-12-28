@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fLrdL6mMib761ON6RuhKYa4KDaSgnLcaqa0jwP1PYg2tm34Dc/8s0eTqDUEccgF9KVa7BgQCSl+u6uXkHrikpg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kamal\\source\\repos\\AsynchrounousPrgs\\AsyncDisposePrg\\AsyncDisposePrg.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kamal\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

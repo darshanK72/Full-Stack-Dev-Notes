@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "V/6hWfNdQF1kJAbrfCLFOyMNuU0igZW25mfNks/5HHsGpJeDx9ArFp7XfC6LfUpvXRTRdCkZkve4uc8/yYgp5Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kamal\\source\\repos\\DefaultInterfaceMethod\\DefaultInterfaceMethod\\DefaultInterfaceMethod.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kamal\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,806 @@
+1)
+
+namespace Problem1
+{
+     internal class Khata
+    {
+        public Dictionary<string, int> record = new Dictionary<string, int>();
+
+        public Khata(Dictionary<string, int> record)
+        {
+            this.record = record;
+        }
+
+        public int getTotal()
+        {
+            int total = 0;
+            foreach(KeyValuePair<string, int> kvp in this.record)
+            {
+                total += kvp.Value;
+            }
+            return total;
+        }
+
+        public int getRepeteAmount()
+        {
+            Dictionary<int,int> uniqueRecoards = new Dictionary<int,int>();
+            foreach(KeyValuePair<string, int> kvp in record)
+            {
+                if(uniqueRecoards.ContainsKey(kvp.Value))
+                {
+                    uniqueRecoards[kvp.Value]++;
+                }
+                else
+                {
+                    uniqueRecoards[kvp.Value] = 1;
+                }
+            }
+            return uniqueRecoards.Count;
+        }
+    }
+    class Program
+    {
+
+        public static void Main(string[] args)
+        {
+            Dictionary<string,int> recoards = new Dictionary<string,int>();
+
+            recoards.Add("Milk", 100);
+            recoards.Add("Tea", 50);
+
+            Khata khata = new Khata(recoards);
+
+            Console.WriteLine(khata.getTotal());
+            Console.WriteLine(khata.getRepeteAmount());
+        }
+    }
+}
+
+2) 
+
+namespace Problem2
+{
+    class ExceptionZero : Exception
+    {
+        public ExceptionZero(string message) : base(message)
+        {
+
+        }
+    }
+
+    class ExceptionOne : Exception
+    {
+        public ExceptionOne(string message) : base(message)
+        {
+
+        }
+    }
+    internal class Counter
+    {
+        public int[] data;
+
+        public Counter(int[] data)
+        {
+            this.data = data;
+        }
+
+        public string getCount()
+        {
+            string message = "";
+            try
+            {
+                int czero = 0;
+                int cone = 0;
+
+                foreach (int item in data)
+                {
+                    if (item == 0)
+                    {
+                        czero++;
+                    }
+                    else if (item == 1)
+                    {
+                        cone++;
+                    }
+
+                }
+
+                if (czero % 2 == 0 && cone % 2 == 0)
+                {
+                    message += "Greate";
+                }
+                else if (czero % 2 == 1 && cone % 2 == 1)
+                {
+                    message += "Greate";
+                }
+                else if (czero % 2 == 0 && cone % 2 == 1)
+                {
+                    throw new ExceptionOne("One comes odd times");
+                }
+                else if (czero % 2 == 1 && cone % 2 == 0)
+                {
+                    throw new ExceptionZero("Zero comes odd times");
+                }
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+
+            return message;
+
+        }
+
+
+    }
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+            int[] data = { 0, 1, 0, 0, 0, 0,1, 1, 1 };
+            Counter counter = new Counter(data);
+            Console.WriteLine(counter.getCount());
+           
+
+        }
+    }
+}
+
+3) 
+
+using Problem3;
+using System.Diagnostics.Metrics;
+
+namespace Problem3
+{
+    public interface IBrodbandPlan
+    {
+        int GetBrodbandPlanAmount();
+        string Type();
+    }
+
+    public class Black : IBrodbandPlan
+    {
+        private bool _isSubscriptionValid;
+        private int _discountPercentage;
+        private const int Planamount = 3000;
+
+        public Black(bool isSubscriptionValid, int discountPercentage)
+        {
+            if (discountPercentage < 0 || discountPercentage > 50)
+            {
+                throw new ArgumentOutOfRangeException(nameof(discountPercentage));
+            }
+            else
+            {
+                _discountPercentage = discountPercentage;
+            }
+            _isSubscriptionValid = isSubscriptionValid;
+        }
+
+        public int GetBrodbandPlanAmount()
+        {
+            if (this._isSubscriptionValid)
+            {
+                return (int) (Planamount * (1 - (double)this._discountPercentage / 100.0));
+            }
+            else
+            {
+                return Planamount;
+            }
+        }
+
+        public string Type()
+        {
+            return "Black";
+        }
+
+
+    }
+
+    public class Gold : IBrodbandPlan
+    {
+        private bool _isSubscriptionValid;
+        private int _discountPercentage;
+        private const int Planamount = 1500;
+
+        public Gold(bool isSubscriptionValid, int discountPercentage)
+        {
+
+            if (discountPercentage < 0 || discountPercentage > 30)
+            {
+                throw new ArgumentOutOfRangeException(nameof(discountPercentage));
+            }
+            else
+            {
+                _discountPercentage = discountPercentage;
+            }
+            _isSubscriptionValid = isSubscriptionValid;
+        }
+
+        public int GetBrodbandPlanAmount()
+        {
+            if (this._isSubscriptionValid)
+            {
+                return (int)(Planamount * (1 - (double)this._discountPercentage / 100.0));
+            }
+            else
+            {
+                return Planamount;
+            }
+        }
+
+        public string Type()
+        {
+            return "Gold";
+        }
+    }
+
+    class SubscriberPlan
+    {
+        private IList<IBrodbandPlan> _brodbandPlans;
+
+        public SubscriberPlan(IList<IBrodbandPlan> brodbandPlans)
+        {
+            if (brodbandPlans == null)
+            {
+                throw new ArgumentNullException(nameof(brodbandPlans));
+            }
+            else
+            {
+                _brodbandPlans = brodbandPlans;
+            }
+        }
+
+        public IList<Tuple<string, int>> GetSubscriptionPlan()
+        {
+            IList<Tuple<string, int>> tuples = new List<Tuple<string, int>>();
+
+            foreach (IBrodbandPlan plan in this._brodbandPlans)
+            {
+                tuples.Add(Tuple.Create(plan.Type(), plan.GetBrodbandPlanAmount()));
+            }
+
+            return tuples;
+        }
+    }
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+            var plans = new List<IBrodbandPlan>
+            {
+                new Black(true,50),
+                new Black(false,10),
+                new Gold(true,30),
+                new Black(true,20),
+                new Gold(false,20)
+            };
+
+            SubscriberPlan subscriberPlan = new SubscriberPlan(plans);
+
+            foreach(var item in subscriberPlan.GetSubscriptionPlan())
+            {
+                Console.WriteLine($"{ item.Item1} : {item.Item2}");
+            }
+
+        }
+       
+    }
+}
+
+4) 
+
+namespace Problem4
+{
+    public class Reel
+    {
+        public string Name { get; set; }
+        public bool IsPosted { get; set; }
+        public int Views { get; set; }
+
+        public Reel(string name, bool isPosted, int views)
+        {
+            Name = name;
+            IsPosted = isPosted;
+            Views = views;
+        }
+    }
+
+    class Instagram
+    {
+        private IList<Reel> Reels = new List<Reel>();
+
+
+        public Instagram(IList<Reel> reels)
+        {
+            foreach(Reel reel in reels)
+            {
+                if (Reels.Contains(reel))
+                {
+                    throw new InvalidOperationException();
+                }
+                else
+                {
+                    Reels.Add(reel);
+                }
+            }
+            
+        }   
+
+        public string ViewReel(string Name,bool Posted)
+        {
+            if (!Posted)
+            {
+                throw new InvalidOperationException();
+            }
+
+            bool flag = true;
+            string message = "";
+
+            foreach(Reel real in Reels)
+            {
+                if(real.Name == Name)
+                {
+                    flag = false;
+                    if (!real.IsPosted)
+                    {
+                        message += "Not Posted yet";
+                    }
+                    else
+                    {
+                        message += $"{real.Views} views";
+                    }
+
+                    break;
+                    
+                }
+            }
+
+            if(flag)
+            {
+                message += "Not Present";
+            }
+
+            return message;
+        }
+
+        public string DeleteReel(string Name,bool Posted)
+        {
+            if (!Posted)
+            {
+                throw new InvalidOperationException();
+            }
+
+            bool flag = true;
+            string message = "";
+            
+            foreach (Reel real in Reels)
+            {
+                if (real.Name == Name)
+                {
+                    flag = false;
+                    Reels.Remove(real);
+                    break;
+                }
+                
+            }
+
+            if (flag)
+            {
+                message += "Not Present";
+            }
+
+            return message;
+        }
+    }
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+
+            List<Reel> lst = new List<Reel>
+            {
+                new Reel(name : "1", isPosted : true, views : 100),
+                new Reel(name : "2", isPosted : false, views : 0),
+                new Reel(name : "3", isPosted : false, views : 0)
+            };
+
+
+            var inst = new Instagram(lst);
+
+            Console.WriteLine(inst.DeleteReel("Kachha Badam",true));
+
+        }
+    }
+}
+
+5) 
+
+namespace Problem5
+{
+    class InternetException : Exception
+    {
+        public InternetException(string message) : base(message) 
+        { 
+        }
+    }
+    class Internet
+    {
+        public string Name { get; set; }
+        public int DataLimit { get; set; }
+        public int Speed { get; set; }
+
+        public Internet(string name, int dataLimit, int speed)
+        {
+            Name = name;
+            DataLimit = dataLimit;
+            Speed = speed;
+        }
+
+        public string DownloadMovie(int Size)
+        {
+            if(this.DataLimit < Size)
+            {
+                throw new InternetException("File too large");
+            }
+            if(this.Speed < 200)
+            {
+                throw new InternetException("Low Bandwidth");
+            }
+
+            int time = (Size * 1024) / Speed;
+            if(time > 100)
+            {
+                throw new InternetException("Time exceeded");
+            }
+
+            return "Can be downloaded";
+        }
+
+        public string WatchMovie(int Size)
+        {
+
+            string message = "";
+            try
+            {
+                this.DownloadMovie(Size);
+            }
+            catch(InternetException e)
+            {
+                return "Cannot be downloaded";
+            }
+            catch(Exception e)
+            {
+                return "Other Exception";
+            }
+
+            
+            return "Watch listed";
+        }
+    }
+   class Program
+   {
+        public static void Main(string[] args)
+        {
+            Internet obj = new Internet("The Paycheck", 200, 100);
+            Console.WriteLine(obj.WatchMovie(200));
+
+        }
+   }
+}
+
+6) 
+
+using System.Reflection;
+
+namespace Problem6
+{
+    class Data
+    {
+        public String Name { get; set; }
+        public int Size { get; set; }
+        public double Speed { get; set; }
+        public String Time { get;set; }
+
+        public Data(string Name)
+        {
+            this.Name = Name;
+        }
+
+        public Data(string Name,int Size)
+        {
+            this.Name = Name;
+            this.Size = Size;
+        }
+
+        public Data(string Name,int Size,double Speed)
+        {
+            this.Name = Name;
+            this.Size = Size;
+            this.Speed = Speed;
+        }
+
+        public Data(string name, int size, double speed, string time) : this(name, size, speed)
+        {
+            Time = time;
+        }
+    }
+    class Program
+    {
+        public string GetConstructorInfo(Type type)
+        {
+            string output = "";
+            ConstructorInfo[] cinfo = type.GetConstructors();
+
+            output += cinfo[0].ToString();
+            
+            for(int i = 1; i < cinfo.Length; i++)
+            {
+                output += ", ";
+                output += cinfo[i].ToString();
+            }
+
+            return output;
+            
+        }
+
+        public string GetTypeInfo(Type type)
+        {
+            string output = "";
+            PropertyInfo[] cinfo = type.GetProperties();
+
+            output += cinfo[0].ToString();
+
+            for (int i = 1; i < cinfo.Length; i++)
+            {
+                output += ", ";
+                output += cinfo[i].ToString();
+            }
+
+            return output;
+        }
+        public static void Main(string[] args)
+        {
+            Type type = typeof(Data);
+            Program p = new Program();
+            var constructorList = p.GetConstructorInfo(type);
+            Console.WriteLine(constructorList);
+
+        }
+    }
+}
+
+7) 
+
+using System.Runtime.Serialization.Formatters.Binary;
+using System.Linq;
+
+namespace Problem7
+{
+    [Serializable]
+    public class Person
+    {
+        public string Name { get; set; }
+        public string Institute { get; set; }
+        public string Occupation { get; set; }
+        public int YearofBirth { get; set; }
+
+        public Person()
+        {
+
+        }
+
+        Person(string name, string institute, string occupation, int yearofBirth)
+        {
+            Name = name;
+            Institute = institute;
+            Occupation = occupation;
+            YearofBirth = yearofBirth;
+        }
+    }
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+            List<Person> list = new List<Person>()
+            {
+                new Person(){Name="Darshan",Institute = "DYP",Occupation = "Engineer",YearofBirth=2000},
+                new Person(){Name="Suyesh",Institute = "KKW",Occupation = "Engineer",YearofBirth=1999},
+                new Person(){Name="Dipak",Institute = "DYP",Occupation = "Engineer",YearofBirth=2001},
+                new Person(){Name="Parth",Institute = "DYP",Occupation = "Engineer",YearofBirth=2002},
+                new Person(){Name="Suyog",Institute = "DYP",Occupation = "Engineer",YearofBirth=1998}
+
+            };
+
+            Ser(list);
+
+            List<Person> list2 = Deser();
+
+            foreach(Person p in list2)
+            {
+                Console.WriteLine($"{p.Name} : {p.YearofBirth}");
+            }
+
+        }
+
+        public static void Ser(List<Person> people)
+        {
+            FileStream fileStream = new FileStream("Persons.txt", FileMode.Create, FileAccess.Write);
+
+            BinaryFormatter formatter = new BinaryFormatter();
+
+
+            /*var newList = from person in people
+                          where person.YearofBirth >= 1999
+                          select person;
+*/  
+            List<Person> newList = people.FindAll((person) => person.YearofBirth >= 1999);
+
+            formatter.Serialize(fileStream, newList);
+
+            fileStream.Close();
+
+        }
+
+        public static List<Person> Deser()
+        {
+
+            FileStream fileStream = new FileStream("Persons.txt", FileMode.Open, FileAccess.Read);
+
+            BinaryFormatter formatter = new BinaryFormatter();
+
+            List<Person> list = (List<Person>)formatter.Deserialize(fileStream);
+
+            return list;
+
+        }
+
+    }
+
+
+}
+
+8)
+
+namespace Problem8
+{
+    public delegate void Operation(string name);
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+            Program program = new Program();
+            Operation operation = new Operation(program.NameLength);
+            operation += new Operation(program.NumberOfWords);
+            operation += new Operation(program.CheckDigits);
+            operation += new Operation(program.CheckSymbols);
+
+            operation.Invoke("Hello Word 235 this is my home, hwo 5 & 52346992 ^@ 19 %8*** @% $ # ! $$$$) hwo are you");
+
+        }
+
+        public void NameLength(string name)
+        {
+            Console.WriteLine($"Length : {name.Length}");
+        }
+
+        public void NumberOfWords(string name)
+        {
+            string[] words = name.Split(" ");
+            Console.WriteLine("Number of Words : " + words.Length);
+        }
+        
+        public void CheckDigits(string name)
+        {
+            int ints = 0;
+            foreach(Char ch in name)
+            {
+                if (Char.IsDigit(ch))
+                {
+                    ints++;
+                }
+            }
+            Console.WriteLine($"Number of Digits : {ints}");
+        }
+
+        public void CheckSymbols(string name)
+        {
+            int syms = 0;
+            foreach(Char ch in name)
+            {
+                if (Char.IsSymbol(ch))
+                {
+                    Console.WriteLine(ch);
+                    syms++;
+                }
+
+                Char.IsSymbol('+');
+            }
+            Console.WriteLine($"Number of Symbols : {syms}");
+        }
+    }
+}
+
+14) 
+
+using System.Reflection;
+
+namespace Problem14
+{
+    interface InterfaceA
+    {
+        void InterfaceMethod();
+    }
+
+    class Sample : InterfaceA
+    {
+        public Sample()
+        {
+
+        }
+
+        public void InterfaceMethod()
+        {
+            Console.WriteLine("Printed from Sample class");
+
+        }
+    }
+
+    class Verification
+    {
+        Type type = typeof(Sample);
+        public bool CheckInterfaceImplemented(string interfaceName)
+        {
+            var inf = this.type.GetInterface(interfaceName);
+            if(inf != null)
+            {
+                return true ;
+            }
+            return false;
+ 
+        }
+
+        public bool CheckIfConstructorExists(string constructorName)
+        {
+            ConstructorInfo[] cinfo = this.type.GetConstructors();
+
+            foreach(ConstructorInfo c in cinfo)
+            {
+                if (c.ToString() == constructorName)
+                {
+                    return true;
+                }
+            }
+
+            return false;
+
+        }
+
+        public bool CheckIfMethodExists(string methodName)
+        {
+            MethodInfo info = type.GetMethod(methodName);
+            if(info != null)
+            {
+                return true;
+            }
+            return false;
+        }
+    }
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+            Verification verification = new Verification();
+
+            bool resultc = verification.CheckIfConstructorExists("Void .ctor()");
+            bool resulti = verification.CheckInterfaceImplemented("InterfaceA");
+            bool resultm = verification.CheckIfMethodExists("InterfaceMethod");
+
+            Console.WriteLine(resultc + "\n" + resulti + "\n" + resultm);
+
+
+        }
+    }
+}

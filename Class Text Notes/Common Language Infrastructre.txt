@@ -1,0 +1,25 @@
+.NET	
+Overview Of Common Language Infrastructure
+Shubham Jain Shubham Jain  Sep 28, 2017
+ 39.3k 0 0 
+Download .NET & JAVA Office File API for Free
+Common Language Infrastructure is a standard developed by Microsoft that allows the use of multiple different high-level languages on different computer platforms without rewriting the code for any specific architecture. In simple terms, Common Language Infrastructure (CLI) enables an application program written in any commonly-used programming languages to be run on any operating system using a common runtime program rather than a specific for every language. 
+
+The .NET Framework, .NET Core, and Mono are some implementations of CLI.
+
+
+
+CLI consists of 4 features,
+Common Type System (CTS)
+It defines the programming types and operations supported by the .NET runtime engine. It defines rules that languages must follow, which help ensure that objects written in different languages can interact with each other. It defines the rules that ensure that the data types of objects written in various languages are able to interact with each other.
+
+Metadata
+It describes all classes and class members that are defined in the assembly and the classes and class members that the current assembly will call from another assembly. A CLI Language compiler will generate the metadata and store this in the assembly containing the CIL. When the run-time executes CLI, it will check to make sure that the metadata of the called method is the same as the metadata that is stored in the calling method. This ensures that a method can only be called with exactly the right number of parameters and exactly the right parameter types. Metadata can be added to the code through attributes.
+
+Common Language Specification (CLS)
+For programming languages to communicate effectively, targeting CLI is not enough. There must be a common set of standards to which every .NET language must adhere. This common set of language features is called the Common Language Specification (CLS).
+
+Virtual Execution System (VES)
+The VES is responsible for loading and executing programs that are written for the .NET runtime. The purpose of the VES is to provide support that is required to execute the Common Intermediate Language  (CIL)  instruction set.
+
+All compatible languages compile to Common Intermediate Language  (CIL), which is an intermediate language. When the code is executed, the platform-specific VES will compile the CIL to the machine language according to the specific hardware and operating system.

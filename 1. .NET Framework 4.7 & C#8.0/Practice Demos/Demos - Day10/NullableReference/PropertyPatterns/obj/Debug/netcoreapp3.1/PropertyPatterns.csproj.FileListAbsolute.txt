@@ -1,0 +1,12 @@
+C:\Users\Kamal\source\repos\NullableReference\PropertyPatterns\bin\Debug\netcoreapp3.1\PropertyPatterns.exe
+C:\Users\Kamal\source\repos\NullableReference\PropertyPatterns\bin\Debug\netcoreapp3.1\PropertyPatterns.deps.json
+C:\Users\Kamal\source\repos\NullableReference\PropertyPatterns\bin\Debug\netcoreapp3.1\PropertyPatterns.runtimeconfig.json
+C:\Users\Kamal\source\repos\NullableReference\PropertyPatterns\bin\Debug\netcoreapp3.1\PropertyPatterns.runtimeconfig.dev.json
+C:\Users\Kamal\source\repos\NullableReference\PropertyPatterns\bin\Debug\netcoreapp3.1\PropertyPatterns.dll
+C:\Users\Kamal\source\repos\NullableReference\PropertyPatterns\bin\Debug\netcoreapp3.1\PropertyPatterns.pdb
+C:\Users\Kamal\source\repos\NullableReference\PropertyPatterns\obj\Debug\netcoreapp3.1\PropertyPatterns.AssemblyInfoInputs.cache
+C:\Users\Kamal\source\repos\NullableReference\PropertyPatterns\obj\Debug\netcoreapp3.1\PropertyPatterns.AssemblyInfo.cs
+C:\Users\Kamal\source\repos\NullableReference\PropertyPatterns\obj\Debug\netcoreapp3.1\PropertyPatterns.csproj.CoreCompileInputs.cache
+C:\Users\Kamal\source\repos\NullableReference\PropertyPatterns\obj\Debug\netcoreapp3.1\PropertyPatterns.dll
+C:\Users\Kamal\source\repos\NullableReference\PropertyPatterns\obj\Debug\netcoreapp3.1\PropertyPatterns.pdb
+C:\Users\Kamal\source\repos\NullableReference\PropertyPatterns\obj\Debug\netcoreapp3.1\PropertyPatterns.genruntimeconfig.cache

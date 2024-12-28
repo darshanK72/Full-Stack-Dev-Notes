@@ -1,0 +1,12 @@
+D:\Nachiket\Study Materials\Module 2\Demos\CSDemosBackUp\Day3\IGATE.Demos.Collections02\bin\Debug\Collections02.exe.config
+D:\Nachiket\Study Materials\Module 2\Demos\CSDemosBackUp\Day3\IGATE.Demos.Collections02\bin\Debug\Collections02.exe
+D:\Nachiket\Study Materials\Module 2\Demos\CSDemosBackUp\Day3\IGATE.Demos.Collections02\bin\Debug\Collections02.pdb
+D:\Nachiket\Study Materials\Module 2\Demos\CSDemosBackUp\Day3\IGATE.Demos.Collections02\obj\Debug\Collections02.exe
+D:\Nachiket\Study Materials\Module 2\Demos\CSDemosBackUp\Day3\IGATE.Demos.Collections02\obj\Debug\Collections02.pdb
+D:\Nachiket\Study Materials\Module 2\Demos\CSDemosBackUp\Day3\IGATE.Demos.Collections02\obj\Debug\Collections02.csprojResolveAssemblyReference.cache
+D:\Nachiket\Study Materials\Module 2\Demos\CSharp Demos\Day3\Collections02\bin\Debug\Collections02.exe.config
+D:\Nachiket\Study Materials\Module 2\Demos\CSharp Demos\Day3\Collections02\bin\Debug\Collections02.exe
+D:\Nachiket\Study Materials\Module 2\Demos\CSharp Demos\Day3\Collections02\bin\Debug\Collections02.pdb
+D:\Nachiket\Study Materials\Module 2\Demos\CSharp Demos\Day3\Collections02\obj\Debug\Collections02.csprojResolveAssemblyReference.cache
+D:\Nachiket\Study Materials\Module 2\Demos\CSharp Demos\Day3\Collections02\obj\Debug\Collections02.exe
+D:\Nachiket\Study Materials\Module 2\Demos\CSharp Demos\Day3\Collections02\obj\Debug\Collections02.pdb

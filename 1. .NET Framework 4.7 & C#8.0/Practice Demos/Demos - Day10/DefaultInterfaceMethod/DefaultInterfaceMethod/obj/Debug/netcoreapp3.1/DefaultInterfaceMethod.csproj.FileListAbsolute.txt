@@ -1,0 +1,13 @@
+C:\Users\Kamal\source\repos\DefaultInterfaceMethod\DefaultInterfaceMethod\bin\Debug\netcoreapp3.1\DefaultInterfaceMethod.exe
+C:\Users\Kamal\source\repos\DefaultInterfaceMethod\DefaultInterfaceMethod\bin\Debug\netcoreapp3.1\DefaultInterfaceMethod.deps.json
+C:\Users\Kamal\source\repos\DefaultInterfaceMethod\DefaultInterfaceMethod\bin\Debug\netcoreapp3.1\DefaultInterfaceMethod.runtimeconfig.json
+C:\Users\Kamal\source\repos\DefaultInterfaceMethod\DefaultInterfaceMethod\bin\Debug\netcoreapp3.1\DefaultInterfaceMethod.runtimeconfig.dev.json
+C:\Users\Kamal\source\repos\DefaultInterfaceMethod\DefaultInterfaceMethod\bin\Debug\netcoreapp3.1\DefaultInterfaceMethod.dll
+C:\Users\Kamal\source\repos\DefaultInterfaceMethod\DefaultInterfaceMethod\bin\Debug\netcoreapp3.1\DefaultInterfaceMethod.pdb
+C:\Users\Kamal\source\repos\DefaultInterfaceMethod\DefaultInterfaceMethod\obj\Debug\netcoreapp3.1\DefaultInterfaceMethod.csprojAssemblyReference.cache
+C:\Users\Kamal\source\repos\DefaultInterfaceMethod\DefaultInterfaceMethod\obj\Debug\netcoreapp3.1\DefaultInterfaceMethod.AssemblyInfoInputs.cache
+C:\Users\Kamal\source\repos\DefaultInterfaceMethod\DefaultInterfaceMethod\obj\Debug\netcoreapp3.1\DefaultInterfaceMethod.AssemblyInfo.cs
+C:\Users\Kamal\source\repos\DefaultInterfaceMethod\DefaultInterfaceMethod\obj\Debug\netcoreapp3.1\DefaultInterfaceMethod.csproj.CoreCompileInputs.cache
+C:\Users\Kamal\source\repos\DefaultInterfaceMethod\DefaultInterfaceMethod\obj\Debug\netcoreapp3.1\DefaultInterfaceMethod.dll
+C:\Users\Kamal\source\repos\DefaultInterfaceMethod\DefaultInterfaceMethod\obj\Debug\netcoreapp3.1\DefaultInterfaceMethod.pdb
+C:\Users\Kamal\source\repos\DefaultInterfaceMethod\DefaultInterfaceMethod\obj\Debug\netcoreapp3.1\DefaultInterfaceMethod.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+D:\Nachiket\Study Materials\Module 2\Demos\CSharp Demos\Day1\Day1\bin\Debug\Day1.exe.config
+D:\Nachiket\Study Materials\Module 2\Demos\CSharp Demos\Day1\Day1\bin\Debug\Day1.exe
+D:\Nachiket\Study Materials\Module 2\Demos\CSharp Demos\Day1\Day1\bin\Debug\Day1.pdb
+D:\Nachiket\Study Materials\Module 2\Demos\CSharp Demos\Day1\Day1\obj\Debug\Day1.exe
+D:\Nachiket\Study Materials\Module 2\Demos\CSharp Demos\Day1\Day1\obj\Debug\Day1.pdb
+C:\Users\dakhairn\OneDrive - Capgemini\Desktop\Resources\.NET Framework 4.7 & C#8.0\Practice Demos\Demos - Day1\Demos - Day1\Day1\Day1\bin\Debug\Day1.exe.config
+C:\Users\dakhairn\OneDrive - Capgemini\Desktop\Resources\.NET Framework 4.7 & C#8.0\Practice Demos\Demos - Day1\Demos - Day1\Day1\Day1\bin\Debug\Day1.exe
+C:\Users\dakhairn\OneDrive - Capgemini\Desktop\Resources\.NET Framework 4.7 & C#8.0\Practice Demos\Demos - Day1\Demos - Day1\Day1\Day1\bin\Debug\Day1.pdb
+C:\Users\dakhairn\OneDrive - Capgemini\Desktop\Resources\.NET Framework 4.7 & C#8.0\Practice Demos\Demos - Day1\Demos - Day1\Day1\Day1\obj\Debug\Day1.csproj.AssemblyReference.cache
+C:\Users\dakhairn\OneDrive - Capgemini\Desktop\Resources\.NET Framework 4.7 & C#8.0\Practice Demos\Demos - Day1\Demos - Day1\Day1\Day1\obj\Debug\Day1.csproj.SuggestedBindingRedirects.cache
+C:\Users\dakhairn\OneDrive - Capgemini\Desktop\Resources\.NET Framework 4.7 & C#8.0\Practice Demos\Demos - Day1\Demos - Day1\Day1\Day1\obj\Debug\Day1.csproj.CoreCompileInputs.cache
+C:\Users\dakhairn\OneDrive - Capgemini\Desktop\Resources\.NET Framework 4.7 & C#8.0\Practice Demos\Demos - Day1\Demos - Day1\Day1\Day1\obj\Debug\Day1.exe
+C:\Users\dakhairn\OneDrive - Capgemini\Desktop\Resources\.NET Framework 4.7 & C#8.0\Practice Demos\Demos - Day1\Demos - Day1\Day1\Day1\obj\Debug\Day1.pdb

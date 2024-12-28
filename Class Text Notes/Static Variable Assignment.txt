@@ -1,0 +1,44 @@
+using System;
+
+public class HelloWorld
+{
+    public class Employee{
+        
+        public static int empCount;
+        private int empId;
+        private string empName;
+        private int empSalary;
+        
+        public Employee()
+        {
+            empCount +=1 ;
+            this.empId = empCount;
+            this.empName = "Default Name";
+            this.empSalary = 0;
+        }
+        
+        public Employee(string empName,int empSalary)
+        {
+            empCount +=1 ;
+            this.empId = empCount;
+            this.empName = empName;
+            this.empSalary = empSalary;
+        }
+        
+        public void ShowEmployeeDetails()
+        {
+            Console.Write($"Name : {this.empName}\nId : {this.empId}\nSalary : {this.empSalary}\n--------------------\n");
+        }
+        
+    }
+    public static void Main(string[] args)
+    {
+        Employee emp1 = new Employee();
+        emp1.ShowEmployeeDetails();
+        
+        Employee emp2 = new Employee("Darshan Khairnar",422343);
+        emp2.ShowEmployeeDetails();
+        
+        Console.WriteLine("Total Count of Employees : " + Employee.empCount);
+    }
+}

@@ -1,0 +1,13 @@
+C:\Users\Kamal\source\repos\AsynchrounousPrgs\AsyncDisposePrg\bin\Debug\netcoreapp3.1\AsyncDisposePrg.exe
+C:\Users\Kamal\source\repos\AsynchrounousPrgs\AsyncDisposePrg\bin\Debug\netcoreapp3.1\AsyncDisposePrg.deps.json
+C:\Users\Kamal\source\repos\AsynchrounousPrgs\AsyncDisposePrg\bin\Debug\netcoreapp3.1\AsyncDisposePrg.runtimeconfig.json
+C:\Users\Kamal\source\repos\AsynchrounousPrgs\AsyncDisposePrg\bin\Debug\netcoreapp3.1\AsyncDisposePrg.runtimeconfig.dev.json
+C:\Users\Kamal\source\repos\AsynchrounousPrgs\AsyncDisposePrg\bin\Debug\netcoreapp3.1\AsyncDisposePrg.dll
+C:\Users\Kamal\source\repos\AsynchrounousPrgs\AsyncDisposePrg\bin\Debug\netcoreapp3.1\AsyncDisposePrg.pdb
+C:\Users\Kamal\source\repos\AsynchrounousPrgs\AsyncDisposePrg\obj\Debug\netcoreapp3.1\AsyncDisposePrg.csprojAssemblyReference.cache
+C:\Users\Kamal\source\repos\AsynchrounousPrgs\AsyncDisposePrg\obj\Debug\netcoreapp3.1\AsyncDisposePrg.AssemblyInfoInputs.cache
+C:\Users\Kamal\source\repos\AsynchrounousPrgs\AsyncDisposePrg\obj\Debug\netcoreapp3.1\AsyncDisposePrg.AssemblyInfo.cs
+C:\Users\Kamal\source\repos\AsynchrounousPrgs\AsyncDisposePrg\obj\Debug\netcoreapp3.1\AsyncDisposePrg.csproj.CoreCompileInputs.cache
+C:\Users\Kamal\source\repos\AsynchrounousPrgs\AsyncDisposePrg\obj\Debug\netcoreapp3.1\AsyncDisposePrg.dll
+C:\Users\Kamal\source\repos\AsynchrounousPrgs\AsyncDisposePrg\obj\Debug\netcoreapp3.1\AsyncDisposePrg.pdb
+C:\Users\Kamal\source\repos\AsynchrounousPrgs\AsyncDisposePrg\obj\Debug\netcoreapp3.1\AsyncDisposePrg.genruntimeconfig.cache

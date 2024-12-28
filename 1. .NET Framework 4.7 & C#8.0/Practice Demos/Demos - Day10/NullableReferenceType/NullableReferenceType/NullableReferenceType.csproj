@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <NullableContextOptions>enable</NullableContextOptions>
+
+    <LangVersion>8.0</LangVersion>
+
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    
+  </PropertyGroup>
+
+</Project>

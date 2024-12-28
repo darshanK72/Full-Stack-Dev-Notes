@@ -1,0 +1,46 @@
+using MyClassLibrary;
+using System.Security.Cryptography.X509Certificates;
+
+namespace Assignment22
+{
+    class Subscriber
+    {
+        public delegate void MyDelegate();
+
+        public event MyDelegate myEvent;
+
+        public void MakePayment(int amount)
+        {
+            if(amount > 1000)
+            {
+                myEvent();
+            }
+            else
+            {
+                Console.WriteLine("Payment Done!!");
+            }
+        }
+    }
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            Subscriber s = new Subscriber();
+
+            s.myEvent += new Subscriber.MyDelegate(MyEventHandler);
+
+            s.MakePayment(2000);
+
+        }
+
+        public static void MyEventHandler()
+        {
+            Class1 class1 = new Class1();
+            class1.Hello();
+
+            Console.WriteLine("Cannot Complete Payment");
+        }
+
+
+    }
+}

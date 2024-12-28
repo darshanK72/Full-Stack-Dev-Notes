@@ -1,0 +1,5 @@
+D:\DATA\Data\2016\Dec 2016\Training\Module 2\Developer Tools\Demo\CalculateDemo\CalculateDemo\bin\Debug\CalculateDemo.dll
+D:\DATA\Data\2016\Dec 2016\Training\Module 2\Developer Tools\Demo\CalculateDemo\CalculateDemo\bin\Debug\CalculateDemo.pdb
+D:\DATA\Data\2016\Dec 2016\Training\Module 2\Developer Tools\Demo\CalculateDemo\CalculateDemo\obj\Debug\CalculateDemo.csprojResolveAssemblyReference.cache
+D:\DATA\Data\2016\Dec 2016\Training\Module 2\Developer Tools\Demo\CalculateDemo\CalculateDemo\obj\Debug\CalculateDemo.dll
+D:\DATA\Data\2016\Dec 2016\Training\Module 2\Developer Tools\Demo\CalculateDemo\CalculateDemo\obj\Debug\CalculateDemo.pdb

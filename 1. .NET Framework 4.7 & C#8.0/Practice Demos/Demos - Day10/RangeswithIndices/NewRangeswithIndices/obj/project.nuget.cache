@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dWiYg449OSW9V4joyYoKiMK1XUuypwynXYfqj54vWwlmfb2+oT/gMH0dG7fM2XeRzIz+LBEgmmoo/Ymz4qKzKw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kamal\\source\\repos\\RangeswithIndices\\NewRangeswithIndices\\NewRangeswithIndices.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kamal\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

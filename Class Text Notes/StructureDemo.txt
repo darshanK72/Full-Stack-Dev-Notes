@@ -1,0 +1,27 @@
+using System;
+
+public class HelloWorld
+{
+    public struct Student{
+        int id;
+        string name;
+        
+        
+        public Student(int i,string n)
+        {
+            id = i;
+            name = n;
+        }
+        
+        
+        public void greet()
+        {
+            Console.WriteLine("Hello " + name );
+        }
+    }
+    public static void Main(string[] args)
+    {
+        Student s1 = new Student(101,"Darshan");
+        s1.greet();
+    }
+}

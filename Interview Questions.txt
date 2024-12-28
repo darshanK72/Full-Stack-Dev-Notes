@@ -1,0 +1,75 @@
+1.Why we need object oriented programming ?
+- Ops helps us to think in terms of real world objects so let us say you are creating a software for a hospital
+so hospital have patient so we can say class patient and each patient have address and name also hospital have doctor so we can say class doctor and every doctor also have name and every doctor has a patient so what we can do we can add aggrgated doctor object in patient class due to that our code is mimicing the real world object..
+
+2.What are main pillers of oops?
+-Abstraction:Show what is necessary
+ Polymorphism:Objects act differently under different condition
+ Inheritance:Parent child relationship
+ Encapsulation:Hide complexity
+
+3.What is class and object ?
+-class is a type, blueprint and object is a instance of the class
+
+4.Diff between Abstraction and Encapsulation
+-Abstraction:Show only what is necessary ,Abstraction happens during design phase what has to shown public 
+ Encapsulation:Hide Complexity,
+during execution phase developer uses encapsulation to implement tought process of abstraction and encapsulation implements abstractions abstraction and encapsulation compliments each othe
+
+
+5.Explain Inheritance?
+-It defines parent and child relationship between two classes
+
+6.What is use of virtual Keyword ?
+-Virtual keyword helps us to define some logic in the parent class which can be overhidden in child class 
+
+7.What is method overloading?
+method overloading means same method names with diffrent signature(parameters) in same class
+
+8.Overloading and overriding
+-Overloading:method with same names with diffrent parameters(signature)
+ Overriding:using virtual keyword and overriding in child class, It requires parent child relationship otherwise method overrding will not exists
+
+9.What is Polymorphism ?
+-Its an ability of an object to act diffrently under different condition
+
+10.Static vs Dynamic Polymorphism ?
+-Static polymorphism implemented by overloading and dynamic poly is implemented by overrding
+
+
+11.Abstraction : Abstractions means show only what is necessary it simplifies complex things by focusing on important details by ignoring less importanat details for example if we are using a tv remote we use power volume and mute button without knowing its technical functionality inside it.
+
+12.Polymorphism : Polymorphism in simple terms is like having a single object that can change its behavior based on the situation. For example, a user object can act as an admin or a data entry object depending on the conditions. It's about one thing taking on different roles when needed.
+
+13.Encapsulation : Encapsulation is a process of crafrating a shield outside a object to hide complexity inside it and expose simple and user friendly parts this helps to manage and control access of object iner workability also this simplifies use and management of code for example if we consider a samrtphone which have complex inner componnets like Ram, Processor and memory as a user we dont need to interact with this componets. power button screen and touch encaplusate complexity and with the help of this user friendly parts we can intract with that.
+
+14.Interface : interface defining a set of rules that a class must obey. it defines what methods and properties class can have and creating a contract that how class should behave other class can follow this rules by implimenting interface.
+
+15.Abstract class : An abstract class in C# is a blueprint for other classes. It can have methods without implementations, which must be provided by classes that inherit from it. You can't create objects directly from an abstract class.
+
+16.Delegates : Delegates is a placeholder for function it let us point a method and use it if its a variable which makes easiar to call a methods dynamically such as in handling events
+
+17.Event : event is like a notification that something has happened. It's used to allow one part of the code (the publisher) to inform other parts (subscribers) that a specific action or condition has occurred
+
+18.How does delegate differ from an event?
+Events are typically used to signal when something specific happens, like a button click, and they protect the delegate from being overwritten accidentally. So, delegates are more general-purpose, while events are a specific use case of delegates for signaling and handling actions or notifications.
+
+19.C#
+C# is a modern, high-level programming language developed by Microsoft. It is widely used for developing a wide range of software applications, including desktop applications, web applications, mobile apps, games, and more. C# is part of the .NET framework and provides a strong, statically-typed, object-oriented programming environment.
+
+
+20.Dependency injection
+dependency injection is a technique where you pass the required dependencies (objects or services) into a class from the outside, rather than the class creating them internally. This makes your code more flexible, testable, and maintainable because you can easily swap or change the dependencies without modifying the class itself.
+
+21.Web Api
+A Web API is a way for different software programs to talk to each other over the internet, allowing them to request and exchange data, like ordering from a menu in a restaurant. It's commonly used for building web and mobile apps that need to connect with external services.
+
+
+22.Authentication and Authorization
+Authentication is the process of verifying a user's identity, typically through a username and password. Authorization is determining what actions and resources a user is allowed to access after authentication, based on their permissions and access rights.
+
+23.Collections
+These are like containers for holding and managing groups of objects, such as lists, dictionaries, or sets.
+
+24.Generics
+These allow you to write code that works with different data types in a safe and reusable way. For example, you can create a list that holds specific types of objects.

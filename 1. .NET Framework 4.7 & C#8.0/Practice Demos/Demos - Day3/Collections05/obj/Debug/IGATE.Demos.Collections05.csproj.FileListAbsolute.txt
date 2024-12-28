@@ -1,0 +1,5 @@
+D:\Data\June 2015\Module 2 Course\New Demos\IGATE.Demos.Day3\IGATE.Demos.Collections05\bin\Debug\IGATE.Demos.Collections05.exe.config
+D:\Data\June 2015\Module 2 Course\New Demos\IGATE.Demos.Day3\IGATE.Demos.Collections05\bin\Debug\IGATE.Demos.Collections05.exe
+D:\Data\June 2015\Module 2 Course\New Demos\IGATE.Demos.Day3\IGATE.Demos.Collections05\bin\Debug\IGATE.Demos.Collections05.pdb
+D:\Data\June 2015\Module 2 Course\New Demos\IGATE.Demos.Day3\IGATE.Demos.Collections05\obj\Debug\IGATE.Demos.Collections05.exe
+D:\Data\June 2015\Module 2 Course\New Demos\IGATE.Demos.Day3\IGATE.Demos.Collections05\obj\Debug\IGATE.Demos.Collections05.pdb

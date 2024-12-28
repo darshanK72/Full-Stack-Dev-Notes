@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1006]D:\DATA\Data\2016\Dec 2016\Training\Module 2\Developer Tools\Demo\CaclulateTest\CaclulateTest\bin\Debug\CaclulateTest.dll</TopNode>
+  <SelectedNode>[0-1006]D:\DATA\Data\2016\Dec 2016\Training\Module 2\Developer Tools\Demo\CaclulateTest\CaclulateTest\bin\Debug\CaclulateTest.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1006]D:\DATA\Data\2016\Dec 2016\Training\Module 2\Developer Tools\Demo\CaclulateTest\CaclulateTest\bin\Debug\CaclulateTest.dll" Expanded="true" />
+    <Node UniqueName="[0-1007]CaclulateTest" Expanded="true" />
+    <Node UniqueName="[0-1000]CaclulateTest.CalculateTestClass" Expanded="true" />
+  </Nodes>
+</VisualState>

@@ -1,0 +1,13 @@
+C:\Users\Kamal\source\repos\AsynchrounousPrgs\AsynchrounousPrgs\bin\Debug\netcoreapp3.1\AsynchrounousPrgs.exe
+C:\Users\Kamal\source\repos\AsynchrounousPrgs\AsynchrounousPrgs\bin\Debug\netcoreapp3.1\AsynchrounousPrgs.deps.json
+C:\Users\Kamal\source\repos\AsynchrounousPrgs\AsynchrounousPrgs\bin\Debug\netcoreapp3.1\AsynchrounousPrgs.runtimeconfig.json
+C:\Users\Kamal\source\repos\AsynchrounousPrgs\AsynchrounousPrgs\bin\Debug\netcoreapp3.1\AsynchrounousPrgs.runtimeconfig.dev.json
+C:\Users\Kamal\source\repos\AsynchrounousPrgs\AsynchrounousPrgs\bin\Debug\netcoreapp3.1\AsynchrounousPrgs.dll
+C:\Users\Kamal\source\repos\AsynchrounousPrgs\AsynchrounousPrgs\bin\Debug\netcoreapp3.1\AsynchrounousPrgs.pdb
+C:\Users\Kamal\source\repos\AsynchrounousPrgs\AsynchrounousPrgs\obj\Debug\netcoreapp3.1\AsynchrounousPrgs.csprojAssemblyReference.cache
+C:\Users\Kamal\source\repos\AsynchrounousPrgs\AsynchrounousPrgs\obj\Debug\netcoreapp3.1\AsynchrounousPrgs.AssemblyInfoInputs.cache
+C:\Users\Kamal\source\repos\AsynchrounousPrgs\AsynchrounousPrgs\obj\Debug\netcoreapp3.1\AsynchrounousPrgs.AssemblyInfo.cs
+C:\Users\Kamal\source\repos\AsynchrounousPrgs\AsynchrounousPrgs\obj\Debug\netcoreapp3.1\AsynchrounousPrgs.csproj.CoreCompileInputs.cache
+C:\Users\Kamal\source\repos\AsynchrounousPrgs\AsynchrounousPrgs\obj\Debug\netcoreapp3.1\AsynchrounousPrgs.dll
+C:\Users\Kamal\source\repos\AsynchrounousPrgs\AsynchrounousPrgs\obj\Debug\netcoreapp3.1\AsynchrounousPrgs.pdb
+C:\Users\Kamal\source\repos\AsynchrounousPrgs\AsynchrounousPrgs\obj\Debug\netcoreapp3.1\AsynchrounousPrgs.genruntimeconfig.cache

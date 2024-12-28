@@ -1,0 +1,326 @@
+8) Create a console application to display the student grade . Get username , min of 5 student marks from the user. If mark is not entered ie null , assign it as 0. Note- Use integer array
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.Write("Enter Name Of Student : ");
+        string name = Console.ReadLine();
+
+        int[] marks = new int[5];
+
+        Console.WriteLine("Enter Marks of 5 Subjects Out of 100 : ");
+        for (int i = 0; i < marks.Length; i++)
+        {
+            Console.Write($"Subject {i + 1} Marks : ");
+            int? temp = Convert.ToInt32(Console.ReadLine());
+            if(temp != null)
+            {
+                marks[i] = temp.Value;
+            }
+            else
+            {
+                marks[i] = 0;
+            }
+        }
+
+        double avg = 0.0;
+        foreach (int mark in marks)
+        {
+            avg += mark;
+        }
+
+        avg /= marks.Length;
+
+        Console.WriteLine($"Grades of Student : {avg}");
+    }
+}
+
+9) Create a simple bank application in console get 3 customer loan details(loan no,loan amount, periodofloan,rateofinterest) and calculate their interest.
+
+using System;
+
+
+public class Customer
+{
+    public static int customerCount = 0;
+    public int id { get; set; }
+    public string name { get; set; }
+    public double loanAmount { get; set; }
+    public double rateOfIntrest { get; set; }
+    public double durationOfLoan { get; set; }
+    public double totalIntrest { get; set; }
+
+    public Customer() 
+    { 
+        id = ++customerCount;
+    }
+
+
+    public override string? ToString()
+    {
+        return $"Loan Intrest for Customer {this.name} : {this.totalIntrest}";
+    }
+}
+
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Customer[] customers = new Customer[3];
+
+        while (customers.Length < 3)
+        {
+            Customer customer = new Customer();
+
+            Console.Write("Enter Customer Name : ");
+            customer.name = Console.ReadLine();
+        
+            Console.Write("Enter Loan Amount : ");
+            customer.loanAmount = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter Rate of Interst : ");
+            customer.rateOfIntrest = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter Duration of Loan : ");
+            customer.durationOfLoan = Convert.ToDouble(Console.ReadLine());
+
+            customer.totalIntrest = (customer.loanAmount * customer.rateOfIntrest * customer.durationOfLoan) / 100;
+
+            customers[customers.Length] = customer;
+        }
+
+        foreach(Customer customer in customers)
+        {
+            Console.WriteLine(customer);
+        }
+    }
+}
+
+10) Create a Console application to test usage of Switch case construct. Accept some integer and using a switch case construct, check if the value entered is 1, 2, 3, 4 or 5.
+
+Print some message in each case. If the value is other than the above values, then print error message.
+
+namespace ConsoleFirstApp
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            Console.Write("Enter Your Choice Number From 1,2,3,4,5: ");
+            int choice = int.Parse(Console.ReadLine());
+
+            switch (choice)
+            {
+                case 1: 
+                    Console.WriteLine("You Have Entered 1");
+                    break;
+                case 2: 
+                    Console.WriteLine("You Have Entered 2");
+                    break;
+                case 3: 
+                    Console.WriteLine("You Have Entered 3"); 
+                    break;
+                case 4: 
+                    Console.WriteLine("You Have Entered 4"); 
+                    break;
+                case 5: 
+                    Console.WriteLine("You Have Entered 5"); 
+                    break;
+                default: 
+                    Console.WriteLine("Incorrect Choice");
+                    break;
+            }
+
+        }
+    }
+}
+
+11) Joseph school planned to create a system to store the records of students studying in their school. They need to store various kinds of data about their students. Write a C# program based on the class diagram given below and initialize the variables with proper values and print it.
+
+namespace ConsoleFirstApp
+{
+    public class Student
+    {
+        public int rollNumber { get; set; } = 0;
+        public string studentName { get; set; } = string.Empty;
+        public DateTime dateOfBirth { get; set; } = DateTime.MinValue;
+        public int age { get; set; } = 0;
+        public double percentages { get; set; } = 0.0;
+        public string address { get; set; } = string.Empty;
+
+        public override string? ToString()
+        {
+            return $"Name : {this.studentName}\nRoll No : {this.rollNumber}\nDate of Birth : {this.dateOfBirth}\nAge : {this.age}\nPercentages : {this.percentages}\nAddress : {this.address}\n-----------------------------";
+        }
+    }
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            Student s1 = new Student();
+            s1.rollNumber = 101;
+            s1.studentName = "Darshan Khairnar";
+            s1.age = 15;
+            s1.dateOfBirth = new DateTime(2000,12,7);
+            s1.percentages = 78.52;
+            s1.address = "Anand Nagar, Malegaon, Soygaon";
+
+
+
+            Console.WriteLine(s1);
+
+
+        }
+    }
+}
+
+12) Create a class named ProductDemo which accepts the details of the product, converts the details into reference types using boxing and displays them by converting them into their relevant types using unboxing and calculate the amountPayable. Refer the class diagram given below.
+
+using System.Collections;
+
+namespace ConsoleFirstApp
+{
+    public class ProductDemo
+    {
+        public static int productCount = 0;
+        public object? objProductID { get; set; }
+        public object? objProductName { get; set; }
+        public object? objPrice { get; set; }
+        public object? objQuantity { get; set; }
+        public object? objAmountPayable { get; set; }
+
+        public ProductDemo()
+        {
+            ProductDemo.productCount += 1;
+            this.objProductID = productCount;
+        }
+
+        public override string? ToString()
+        {
+            return $"Product Id : {this.objProductID}\nProduct Name : {this.objProductName}\nProduct Price : {this.objPrice}\nQuantity : {this.objQuantity}\nAmount Payable : {this.objAmountPayable}\n-----------------------------";
+        }
+    }
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+
+            ArrayList productList = new ArrayList();
+
+            ProductDemo[] products = new ProductDemo[10];
+
+            Console.Write("Do You Want to Add New Product (yes/no) : ");
+            string? choice = Console.ReadLine();
+
+            while (choice.ToLower() == "yes" && productList.Count < 10)
+            {
+                ProductDemo demo = new ProductDemo();
+                Console.Write("Enter Name of Product : ");
+                demo.objProductName = Console.ReadLine();
+                Console.Write("Enter Price : ");
+                demo.objPrice = double.Parse(Console.ReadLine());
+                Console.Write("Enter Quantity: ");
+                demo.objQuantity = int.Parse(Console.ReadLine());
+                Console.Write("Enter Amount Payable : ");
+                demo.objAmountPayable = double.Parse(Console.ReadLine());
+
+                
+                productList.Add(demo);
+
+                Console.Write("\nDo You Want to Add New Product (yes/no) : ");
+                choice = Console.ReadLine();
+
+            }
+
+
+            Console.WriteLine("\n\n------------------------Products----------------------------\n"); ;
+            foreach (var demo in productList)
+            {
+                Console.WriteLine(demo);
+            }
+
+            
+            
+
+            
+
+
+        }
+    }
+}
+
+13) Sanjay has written the following code. The purpose is to create a Bird class and implement function overloading. The code has some errors. Debug the code, and find out what’s wrong with it and correct the code.
+
+using System.Collections;
+
+namespace ConsoleFirstApp
+{
+    public class Bird
+    {
+
+        public string Name;
+
+        public double? Maxheight;
+
+        public Bird() //Default Constructor
+
+        {
+
+            this.Name = "Mountain Eagle";
+
+            this.Maxheight = 500;
+
+            //
+
+            // TODO: Add constructor logic here
+
+            //
+
+        }
+
+        public Bird(string birdname, double max_ht) //Overloaded Constructor
+
+        {
+
+            this.Name = birdname;
+
+            this.Maxheight = max_ht;
+
+        }
+
+        public void fly()
+        {
+
+            Console.WriteLine($"{this.Name} is flying at altitude this.Maxheight");
+
+        }
+
+        public void fly(string AtHeight)
+        {
+
+            if (double.Parse(AtHeight) <= this.Maxheight)
+                Console.WriteLine(this.Name + " flying at " + AtHeight.ToString());
+            else
+            Console.WriteLine($"{this.Name} cannot fly at this height");
+
+        }
+
+    }
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+
+            Bird b = new Bird("Eagle" , double.Parse("200"));
+
+            b.fly();
+
+            b.fly("300");
+
+        }
+    }
+}

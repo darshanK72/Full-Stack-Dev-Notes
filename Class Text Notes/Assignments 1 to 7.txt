@@ -1,0 +1,279 @@
+1) Calculator 
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Enter Two Numbers : ");
+        double a = Convert.ToDouble(Console.ReadLine());
+        double b = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Operations :\n+ : Addition\n- : Subtracttion\n* : Multiplication\n/ : Division\nEnter Operation :");
+        char op = Console.ReadLine()[0];
+        
+        switch(op)
+        {
+            case '+':
+                Add(a,b);
+                break;
+            case '-':
+                Console.WriteLine($"a - b = {Subtract(a,b)}");
+                break;
+            case '*':
+                Multiply(a,b);
+                break;
+            case '/':
+                Divide(a,b);
+                break;
+        }
+        // if(op == "+")
+        // {
+        //   Add(a,b);
+            
+        // }else if(op == "-")
+        // {
+        //   Subtract(a,b);
+        // }
+        // else if(op == "*")
+        // {
+        //   Multiply(a,b);
+           
+        // }else if(op == "/")
+        // {
+        //     Divide(a,b); 
+        // }
+    }
+    
+    public static void Add(double a, double b)
+    {
+         //Console.WriteLine($"a + b = {a + b}");
+            Console.WriteLine("a + b = " + (a + b));
+        //Console.WriteLine("a + b = {0}",(a+b));
+    }
+    
+    public static double Subtract(double a, double b)
+    {
+        return a - b;
+    }
+    
+    public static void Multiply(double a, double b)
+    {
+         Console.WriteLine($"a * b = {a*b}");
+    }
+    
+    public static void Divide(double a, double b)
+    {
+         Console.WriteLine($"a / b = {a/b}");
+    }
+}
+
+2) Data Types
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        bool b1 = true;
+        byte b2 = 42;
+        char c1 = 'H';
+        short s1 = 772;
+        int i1 = 52;
+        long l1 = 752732;
+        float f1 = 634.52f;
+        double d1 = 52324324.523;
+        decimal d2 = 52323455.234M;
+        string name = "Darshan Khairnar";
+        
+        
+        Object ob = new Object();
+        
+        ob = "This is String";
+        Console.WriteLine($"Object ob = {ob}");
+        
+        ob = 526;
+        Console.WriteLine($"Object ob = {ob}");
+        
+        ob = 723.523f;
+        Console.WriteLine($"Object ob = {ob}");
+        
+        ob = 8523.23534;
+        Console.WriteLine($"Object ob = {ob}");
+        
+        ob = 872734.523525M;
+        Console.WriteLine($"Object ob = {ob}");
+        
+        
+        
+        Console.WriteLine($"Boolean b1 = {b1}");
+        Console.WriteLine($"Byte b2 = {b2}");
+        Console.WriteLine($"Char c1 = {c1}");
+        Console.WriteLine($"Short s1 = {s1}");
+        Console.WriteLine($"Int i1 = {i1}");
+        Console.WriteLine($"Long l1 = {l1}");
+        Console.WriteLine($"Float f1 = {f1}");
+        Console.WriteLine($"Doluble d1 = {d1}");
+        Console.WriteLine($"Decimal d2 = {d2}");
+        Console.WriteLine($"String name = {name}");
+        
+    }
+}
+
+
+3) Write a program in C# to display a message as follows: “Welcome to the world of C#”
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Welcome to the world of C#");
+    }
+}
+
+4) Write a program in C# to accept the name of the user and greet the user as:
+“Hi! username
+Welcome to the world of C#”
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        string name = Console.ReadLine();
+        Console.WriteLine("Hi! "+ name + "\nWelcome to the world of C#");
+    }
+}
+
+5) Write a program in C# to accept two numbers and display all the numbers between the given two numbers.
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Enter First Number : ");
+        int n1 = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Enter Second Number : ");
+        int n2 = Convert.ToInt32(Console.ReadLine());
+        
+        for(int i = n1; i <= n2; i++)
+        {
+            Console.Write(i + " ");
+        }
+    }
+}
+
+6) Accept a number from the user and display whether the given number is an odd number or even number
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Enter Number : ");
+        int n1 = Convert.ToInt32(Console.ReadLine());
+        
+        if(n1%2 == 0)
+        {
+            Console.WriteLine($"{n1} is Even Number");
+        }
+        else
+        {
+            Console.WriteLine($"{n1} is Odd Number");
+        }
+    }
+}
+
+7) Write a program in C# to find the total number of odd and even numbers accepted from the user.
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Enter First Number : ");
+        int n1 = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Enter Second Number : ");
+        int n2 = Convert.ToInt32(Console.ReadLine());
+        
+        for(int i = n1; i <= n2; i++)
+        {
+           if(i%2 == 0)
+           {
+               Console.WriteLine(i);
+           }
+        }
+    }
+}
+
+8) Write a program to define a two dimensional array of numbers to store 5 rows and 6 columns. Write a code to accept the data, assign it in array, and print the data entered by the user.
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int[,] arr = new int[5,6];
+        
+        Console.WriteLine("Enter Elements of Array : ");
+        for(int i = 0; i < 5; i++)
+        {
+            for(int j = 0 ; j < 6; j++)
+            {
+                arr[i,j] = Convert.ToInt32(Console.ReadLine());
+            }
+        }
+        
+        for(int i = 0; i < 5; i++)
+        {
+            for(int j = 0 ; j < 6; j++)
+            {
+                Console.Write(arr[i,j] + " ");
+            }
+            Console.WriteLine();
+        }
+    }
+}
+
+9) Define a single dimension array of strings to hold the name of City. Accept some values from the user and store them in the array. Use foreach loop to print all the data of the array.
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Enter Length of Array :");
+        int length = Convert.ToInt32(Console.ReadLine());
+        string[] arr = new string[length];
+        
+        Console.WriteLine("Enter Elements of Array : ");
+        for(int i = 0; i < length; i++)
+        {
+            arr[i] = Console.ReadLine();
+        }
+        
+        Console.WriteLine();
+        
+        Console.WriteLine("Elements of Array : ");
+        // for(int i = 0; i < length; i++)
+        // {
+        //     Console.WriteLine(arr[i]);
+        // }
+        
+        foreach(string ele in arr)
+        {
+            Console.WriteLine(ele);
+        }
+    }
+}
+

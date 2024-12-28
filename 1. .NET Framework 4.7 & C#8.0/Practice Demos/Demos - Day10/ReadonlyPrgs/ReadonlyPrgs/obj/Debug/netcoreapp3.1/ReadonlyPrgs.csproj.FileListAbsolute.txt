@@ -1,0 +1,13 @@
+C:\Users\Kamal\source\repos\ReadonlyPrgs\ReadonlyPrgs\bin\Debug\netcoreapp3.1\ReadonlyPrgs.exe
+C:\Users\Kamal\source\repos\ReadonlyPrgs\ReadonlyPrgs\bin\Debug\netcoreapp3.1\ReadonlyPrgs.deps.json
+C:\Users\Kamal\source\repos\ReadonlyPrgs\ReadonlyPrgs\bin\Debug\netcoreapp3.1\ReadonlyPrgs.runtimeconfig.json
+C:\Users\Kamal\source\repos\ReadonlyPrgs\ReadonlyPrgs\bin\Debug\netcoreapp3.1\ReadonlyPrgs.runtimeconfig.dev.json
+C:\Users\Kamal\source\repos\ReadonlyPrgs\ReadonlyPrgs\bin\Debug\netcoreapp3.1\ReadonlyPrgs.dll
+C:\Users\Kamal\source\repos\ReadonlyPrgs\ReadonlyPrgs\bin\Debug\netcoreapp3.1\ReadonlyPrgs.pdb
+C:\Users\Kamal\source\repos\ReadonlyPrgs\ReadonlyPrgs\obj\Debug\netcoreapp3.1\ReadonlyPrgs.csprojAssemblyReference.cache
+C:\Users\Kamal\source\repos\ReadonlyPrgs\ReadonlyPrgs\obj\Debug\netcoreapp3.1\ReadonlyPrgs.AssemblyInfoInputs.cache
+C:\Users\Kamal\source\repos\ReadonlyPrgs\ReadonlyPrgs\obj\Debug\netcoreapp3.1\ReadonlyPrgs.AssemblyInfo.cs
+C:\Users\Kamal\source\repos\ReadonlyPrgs\ReadonlyPrgs\obj\Debug\netcoreapp3.1\ReadonlyPrgs.csproj.CoreCompileInputs.cache
+C:\Users\Kamal\source\repos\ReadonlyPrgs\ReadonlyPrgs\obj\Debug\netcoreapp3.1\ReadonlyPrgs.dll
+C:\Users\Kamal\source\repos\ReadonlyPrgs\ReadonlyPrgs\obj\Debug\netcoreapp3.1\ReadonlyPrgs.pdb
+C:\Users\Kamal\source\repos\ReadonlyPrgs\ReadonlyPrgs\obj\Debug\netcoreapp3.1\ReadonlyPrgs.genruntimeconfig.cache

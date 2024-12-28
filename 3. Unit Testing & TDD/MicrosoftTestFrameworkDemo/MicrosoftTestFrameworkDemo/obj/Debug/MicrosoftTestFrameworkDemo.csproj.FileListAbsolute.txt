@@ -1,0 +1,6 @@
+D:\DATA\Data\2016\Dec 2016\Training\Module 2\Developer Tools\Demo\MicrosoftTestFrameworkDemo\MicrosoftTestFrameworkDemo\bin\Debug\MicrosoftTestFrameworkDemo.exe.config
+D:\DATA\Data\2016\Dec 2016\Training\Module 2\Developer Tools\Demo\MicrosoftTestFrameworkDemo\MicrosoftTestFrameworkDemo\bin\Debug\MicrosoftTestFrameworkDemo.exe
+D:\DATA\Data\2016\Dec 2016\Training\Module 2\Developer Tools\Demo\MicrosoftTestFrameworkDemo\MicrosoftTestFrameworkDemo\bin\Debug\MicrosoftTestFrameworkDemo.pdb
+D:\DATA\Data\2016\Dec 2016\Training\Module 2\Developer Tools\Demo\MicrosoftTestFrameworkDemo\MicrosoftTestFrameworkDemo\obj\Debug\MicrosoftTestFrameworkDemo.csprojResolveAssemblyReference.cache
+D:\DATA\Data\2016\Dec 2016\Training\Module 2\Developer Tools\Demo\MicrosoftTestFrameworkDemo\MicrosoftTestFrameworkDemo\obj\Debug\MicrosoftTestFrameworkDemo.exe
+D:\DATA\Data\2016\Dec 2016\Training\Module 2\Developer Tools\Demo\MicrosoftTestFrameworkDemo\MicrosoftTestFrameworkDemo\obj\Debug\MicrosoftTestFrameworkDemo.pdb

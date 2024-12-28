@@ -1,0 +1,124 @@
+
+1. Exception Handling -try, catch, finally
+2. Innerexecption property, userdefined exception
+3. Delegate
+1.single cast
+2.Multicast 
+
+Collections
+
+
+
+Any type-  object
+
+when retieving 
+
+
+object -  >any type
+
+
+Generic collection <T>- type 
+
+Common behaviour with diff types
+
+Arraylist - List<T>
+stack- stack<T>
+Queue-queue<T>
+Hashtable- Dictionary<k,v>
+
+
+System.Collections ;   for non generic
+
+System.Collections.Generic--->generic
+
+IEnureable- iteration over user defined collection-
+supprots for each semantic for collection
+Ilist- accessing items using index in collection
+Ienumerator
+
+Type safety is cheked at complie time
+
+
+
+
+File IO and Serialization
+
+File  - is collection bytes
+
+Drive ---- Directory-- File
+
+
+c:\myfile.txt
+
+c:\AzureBatch\File.txt
+
+Open File
+
+Read/write data
+
+Close file
+
+Filestream
+
+Memorystream
+
+Instance Class= Need to create instance
+static class - no need to create instance
+
+
+Directory - static class
+Directoryinfo -  need to create instance 
+
+
+
+serialization - is process of converting the state of object into portable format and preserving it on persistance media
+
+
+Portable format
+
+1.Binary
+2.Xml
+3.JSOn
+4.SOAP- Simple object access protocol
+
+
+SOAp body - SOAP envelope
+
+
+1.Binary serialization- whole object is serialized(public/private field) 
+
+1. Create classs - Apply Serializable attribute
+2. Create filestream object
+2. create binary formatter object
+3. call serialize method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

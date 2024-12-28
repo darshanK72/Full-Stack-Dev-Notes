@@ -1,0 +1,12 @@
+C:\Users\Kamal\source\repos\RangeswithIndices\NewRangeswithIndices\bin\Debug\netcoreapp3.1\NewRangeswithIndices.exe
+C:\Users\Kamal\source\repos\RangeswithIndices\NewRangeswithIndices\bin\Debug\netcoreapp3.1\NewRangeswithIndices.deps.json
+C:\Users\Kamal\source\repos\RangeswithIndices\NewRangeswithIndices\bin\Debug\netcoreapp3.1\NewRangeswithIndices.runtimeconfig.json
+C:\Users\Kamal\source\repos\RangeswithIndices\NewRangeswithIndices\bin\Debug\netcoreapp3.1\NewRangeswithIndices.runtimeconfig.dev.json
+C:\Users\Kamal\source\repos\RangeswithIndices\NewRangeswithIndices\bin\Debug\netcoreapp3.1\NewRangeswithIndices.dll
+C:\Users\Kamal\source\repos\RangeswithIndices\NewRangeswithIndices\bin\Debug\netcoreapp3.1\NewRangeswithIndices.pdb
+C:\Users\Kamal\source\repos\RangeswithIndices\NewRangeswithIndices\obj\Debug\netcoreapp3.1\NewRangeswithIndices.AssemblyInfoInputs.cache
+C:\Users\Kamal\source\repos\RangeswithIndices\NewRangeswithIndices\obj\Debug\netcoreapp3.1\NewRangeswithIndices.AssemblyInfo.cs
+C:\Users\Kamal\source\repos\RangeswithIndices\NewRangeswithIndices\obj\Debug\netcoreapp3.1\NewRangeswithIndices.csproj.CoreCompileInputs.cache
+C:\Users\Kamal\source\repos\RangeswithIndices\NewRangeswithIndices\obj\Debug\netcoreapp3.1\NewRangeswithIndices.dll
+C:\Users\Kamal\source\repos\RangeswithIndices\NewRangeswithIndices\obj\Debug\netcoreapp3.1\NewRangeswithIndices.pdb
+C:\Users\Kamal\source\repos\RangeswithIndices\NewRangeswithIndices\obj\Debug\netcoreapp3.1\NewRangeswithIndices.genruntimeconfig.cache

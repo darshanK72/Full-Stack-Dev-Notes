@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "elIIlUSiQtOaoHYpoW8cE4lJtv5vur273786yhuRE8PYcYyp9iRcSeB0zmDdBR4Si4AjN9xNt6AIqpe8CKdmlA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kamal\\source\\repos\\NullableReference\\NullableReference\\NullableReference.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kamal\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

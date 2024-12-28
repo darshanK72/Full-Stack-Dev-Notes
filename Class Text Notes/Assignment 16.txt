@@ -1,0 +1,119 @@
+16) You need to maintain the file extensions along with file types in a dictionary class. Write the code to achieve the same.
+
+Tasks to be performed:
+
+• • Create a new dictionary of strings, with string keys.
+
+• • Add some elements to the dictionary. There should not be duplicate keys, but some of the values can be duplicates.
+
+• • The Add method throws an exception if the new key is already in the dictionary. Test this by adding a duplicate key.
+
+• When you use foreach to enumerate dictionary elements, the elements are retrieved as Key/Value Pair objects. Use a foreach loop to print the values and test this.
+
+• Use the Remove method to remove a key/value pair.
+
+
+Solution : 
+
+using System.Collections;
+
+namespace ConsoleApp1
+{
+    public class KeyAlreadyPresentException : ApplicationException
+    {
+        public KeyAlreadyPresentException(string message) : base(message)
+        {
+
+        }
+
+    }
+
+    public class Program
+    {
+
+        public static Dictionary<string,string> FileList = new Dictionary<string,string>();
+        public static void Main(string[] args)
+        {
+           
+            while (true)
+            {
+                Console.Write("Enter Your Option\n1. Add File\n2. Show All Files\nYour Choice : ");
+                int choice = int.Parse(Console.ReadLine());
+                Console.WriteLine();
+
+                switch (choice)
+                {
+                    case 1:
+                        AddFile();
+                        break;
+                    case 2:
+                        ShowAllFiles();
+                        break;
+                    default:
+                        Console.WriteLine("Incorrect Choice ! Try Again.");
+                        break;
+                }
+
+                Console.Write("Do You Want to Continue Yes(y)/No(n) : ");
+                string? temp = Console.ReadLine();
+                Console.WriteLine();
+
+                if (temp == "No" || temp == "no" || temp == "n")
+                {
+                    Console.WriteLine("Thank You For Using Application!!");
+                    break;
+                }
+                else if (temp == "Yes" || temp == "yes" || temp == "y")
+                {
+                    continue;
+                }
+            }
+        }
+
+        public static void AddFile()
+        {
+
+            try
+            {
+                Console.Write("Enter Name Of File : ");
+                string fileName = Console.ReadLine();
+                Console.Write("Enter File Extension : ");
+                string fileExtension = Console.ReadLine();
+                fileExtension.Insert(0, ".");
+
+                if(FileList.ContainsKey(fileName))
+                {
+                    throw new KeyAlreadyPresentException($"File With {fileName} Already Exists !!");
+                }
+                else
+                {
+                    FileList.Add(fileName, fileExtension );
+                }
+
+            }
+            catch(KeyAlreadyPresentException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.StackTrace);
+            }
+        }
+
+        public static void ShowAllFiles()
+        {
+            Console.WriteLine("-------------- List of Files ---------------");
+            Console.WriteLine();
+
+            foreach(var file in FileList)
+            {
+                Console.WriteLine(file.Key + file.Value);
+            }
+
+            Console.WriteLine("------------------ END ---------------------");
+        }
+
+        
+    }
+}

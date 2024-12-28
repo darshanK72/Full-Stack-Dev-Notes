@@ -1,0 +1,10 @@
+D:\Nachiket\Study Materials\Module 2\Demos\CSDemosBackUp\Day3\IGATE.Demos.Collections05\bin\Debug\Collections05.exe.config
+D:\Nachiket\Study Materials\Module 2\Demos\CSDemosBackUp\Day3\IGATE.Demos.Collections05\bin\Debug\Collections05.exe
+D:\Nachiket\Study Materials\Module 2\Demos\CSDemosBackUp\Day3\IGATE.Demos.Collections05\bin\Debug\Collections05.pdb
+D:\Nachiket\Study Materials\Module 2\Demos\CSDemosBackUp\Day3\IGATE.Demos.Collections05\obj\Debug\Collections05.exe
+D:\Nachiket\Study Materials\Module 2\Demos\CSDemosBackUp\Day3\IGATE.Demos.Collections05\obj\Debug\Collections05.pdb
+D:\Nachiket\Study Materials\Module 2\Demos\CSharp Demos\Day3\Collections05\bin\Debug\Collections05.exe.config
+D:\Nachiket\Study Materials\Module 2\Demos\CSharp Demos\Day3\Collections05\bin\Debug\Collections05.exe
+D:\Nachiket\Study Materials\Module 2\Demos\CSharp Demos\Day3\Collections05\bin\Debug\Collections05.pdb
+D:\Nachiket\Study Materials\Module 2\Demos\CSharp Demos\Day3\Collections05\obj\Debug\Collections05.exe
+D:\Nachiket\Study Materials\Module 2\Demos\CSharp Demos\Day3\Collections05\obj\Debug\Collections05.pdb

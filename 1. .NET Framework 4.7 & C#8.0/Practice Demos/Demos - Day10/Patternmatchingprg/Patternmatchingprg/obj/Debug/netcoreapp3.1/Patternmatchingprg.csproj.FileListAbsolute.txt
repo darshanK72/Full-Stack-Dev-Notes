@@ -1,0 +1,13 @@
+C:\Users\Kamal\source\repos\Patternmatchingprg\Patternmatchingprg\obj\Debug\netcoreapp3.1\Patternmatchingprg.csprojAssemblyReference.cache
+C:\Users\Kamal\source\repos\Patternmatchingprg\Patternmatchingprg\obj\Debug\netcoreapp3.1\Patternmatchingprg.AssemblyInfoInputs.cache
+C:\Users\Kamal\source\repos\Patternmatchingprg\Patternmatchingprg\obj\Debug\netcoreapp3.1\Patternmatchingprg.AssemblyInfo.cs
+C:\Users\Kamal\source\repos\Patternmatchingprg\Patternmatchingprg\obj\Debug\netcoreapp3.1\Patternmatchingprg.csproj.CoreCompileInputs.cache
+C:\Users\Kamal\source\repos\Patternmatchingprg\Patternmatchingprg\bin\Debug\netcoreapp3.1\Patternmatchingprg.exe
+C:\Users\Kamal\source\repos\Patternmatchingprg\Patternmatchingprg\bin\Debug\netcoreapp3.1\Patternmatchingprg.deps.json
+C:\Users\Kamal\source\repos\Patternmatchingprg\Patternmatchingprg\bin\Debug\netcoreapp3.1\Patternmatchingprg.runtimeconfig.json
+C:\Users\Kamal\source\repos\Patternmatchingprg\Patternmatchingprg\bin\Debug\netcoreapp3.1\Patternmatchingprg.runtimeconfig.dev.json
+C:\Users\Kamal\source\repos\Patternmatchingprg\Patternmatchingprg\bin\Debug\netcoreapp3.1\Patternmatchingprg.dll
+C:\Users\Kamal\source\repos\Patternmatchingprg\Patternmatchingprg\bin\Debug\netcoreapp3.1\Patternmatchingprg.pdb
+C:\Users\Kamal\source\repos\Patternmatchingprg\Patternmatchingprg\obj\Debug\netcoreapp3.1\Patternmatchingprg.dll
+C:\Users\Kamal\source\repos\Patternmatchingprg\Patternmatchingprg\obj\Debug\netcoreapp3.1\Patternmatchingprg.pdb
+C:\Users\Kamal\source\repos\Patternmatchingprg\Patternmatchingprg\obj\Debug\netcoreapp3.1\Patternmatchingprg.genruntimeconfig.cache

@@ -1,0 +1,124 @@
+14) Factorial of Number using single delegate
+
+public class HelloWorld
+{
+    public delegate int MyDelegate(int x);
+    public static void Main(string[] args)
+    {
+        MyDelegate deleg = Factorial;
+
+        Console.WriteLine("Factorial of 20 : " + deleg(7));
+
+    }
+
+    public static int Factorial(int x)
+    {
+        if(x == 0)
+            return 1;
+        return x * Factorial(x - 1);
+    }
+}
+
+15) Invoke addition, subtraction, multiplication & division using multicast delegate
+
+public class HelloWorld
+{
+    public delegate void MyDelegate(int x,int y);
+    public static void Main(string[] args)
+    {
+        HelloWorld helloWorld = new HelloWorld();
+
+        MyDelegate myDelegate = new MyDelegate(helloWorld.add);
+        myDelegate += helloWorld.subtract;
+        myDelegate += helloWorld.multiply;
+        myDelegate += helloWorld.divide;
+
+        myDelegate.Invoke(42, 23);
+       
+    }
+
+    public void add(int x,int y)
+    {
+        Console.WriteLine($"Addition of {x} + {y} = {x + y}");
+    }
+
+    public void subtract(int x,int y)
+    {
+        Console.WriteLine($"Subtraction of {x} - {y} = {x - y}");
+    }
+
+    public void multiply(int x,int y)
+    {
+        Console.WriteLine($"Multiplication of {x} * {y} = {x * y}");
+    }
+
+    public void divide(int x,int y)
+    {
+        Console.WriteLine($"Division of {x} / {y} = {x / y}");
+    }
+}
+
+
+16) Create Custom Exception for showing balance of Customer is not sufficient
+
+public class HelloWorld
+{
+    class NotSufficientBalanceException : ApplicationException
+    {
+        public NotSufficientBalanceException(string message):base(message)
+        {
+           
+        }
+    }
+    public class Customer
+    {
+        public string Name { get; set; }
+        public string Address { get; set; }
+        public double Balance { get; set; }
+
+
+        public Customer(string name,string address,double balance) 
+        {
+            Name = name;
+            Address = address;
+            Balance = balance;
+        }
+
+        public void Withdraw(double amount)
+        { 
+            if(Balance == 0 || Balance < amount )
+            {
+                throw new NotSufficientBalanceException("Balance in Account is Not Sufficient to Withdraw Money !!");
+            }
+
+            Balance = Balance - amount;
+
+            Console.WriteLine("Remaining Balance in Account : " +  Balance);
+             
+        }
+
+    }
+
+
+    public static void Main(string[] args)
+    {
+        Customer customer = new Customer("Darshan Khairnar","Malegaon",40000);
+
+        Console.Write("Enter Ammount to Withdraw : ");
+        double ammount = Convert.ToDouble(Console.ReadLine());
+
+        try
+        {
+             customer.Withdraw(ammount);
+        }
+        catch(NotSufficientBalanceException ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.Message);
+        }
+       
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7L/qGMRE2UueDhqo2BymuVr/Mjzbh72bwMacPppGheCxTRnYj2LX1It54gtaIF4kywPK80oeVi8jsrATjTzCWw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kamal\\source\\repos\\Patternmatchingprg\\Patternmatchingprg\\Patternmatchingprg.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kamal\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dnXrwjL6xEyoKYhWQoDvN7aiuMSC4Jjyz7nxAAxTHNDcT7o6d8QThW8SAviXgGPpG4zbiSsJ+fJXFHCHaZ1bGQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kamal\\source\\repos\\ReadonlyPrgs\\ReadonlyPrgs\\ReadonlyPrgs.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kamal\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

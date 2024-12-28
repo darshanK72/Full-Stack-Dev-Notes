@@ -1,0 +1,13 @@
+C:\Users\Kamal\source\repos\NullableReference\NullableReference\bin\Debug\netcoreapp3.1\NullableReference.exe
+C:\Users\Kamal\source\repos\NullableReference\NullableReference\bin\Debug\netcoreapp3.1\NullableReference.deps.json
+C:\Users\Kamal\source\repos\NullableReference\NullableReference\bin\Debug\netcoreapp3.1\NullableReference.runtimeconfig.json
+C:\Users\Kamal\source\repos\NullableReference\NullableReference\bin\Debug\netcoreapp3.1\NullableReference.runtimeconfig.dev.json
+C:\Users\Kamal\source\repos\NullableReference\NullableReference\bin\Debug\netcoreapp3.1\NullableReference.dll
+C:\Users\Kamal\source\repos\NullableReference\NullableReference\bin\Debug\netcoreapp3.1\NullableReference.pdb
+C:\Users\Kamal\source\repos\NullableReference\NullableReference\obj\Debug\netcoreapp3.1\NullableReference.csprojAssemblyReference.cache
+C:\Users\Kamal\source\repos\NullableReference\NullableReference\obj\Debug\netcoreapp3.1\NullableReference.AssemblyInfoInputs.cache
+C:\Users\Kamal\source\repos\NullableReference\NullableReference\obj\Debug\netcoreapp3.1\NullableReference.AssemblyInfo.cs
+C:\Users\Kamal\source\repos\NullableReference\NullableReference\obj\Debug\netcoreapp3.1\NullableReference.csproj.CoreCompileInputs.cache
+C:\Users\Kamal\source\repos\NullableReference\NullableReference\obj\Debug\netcoreapp3.1\NullableReference.dll
+C:\Users\Kamal\source\repos\NullableReference\NullableReference\obj\Debug\netcoreapp3.1\NullableReference.pdb
+C:\Users\Kamal\source\repos\NullableReference\NullableReference\obj\Debug\netcoreapp3.1\NullableReference.genruntimeconfig.cache

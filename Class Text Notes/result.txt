@@ -1,0 +1,43 @@
+
+GROUP INFORMATION
+-----------------
+
+Group Name                                       Type             SID                                              Attributes                                                     
+================================================ ================ ================================================ ===============================================================
+Everyone                                         Well-known group S-1-1-0                                          Mandatory group, Enabled by default, Enabled group             
+BUILTIN\Users                                    Alias            S-1-5-32-545                                     Mandatory group, Enabled by default, Enabled group             
+BUILTIN\Performance Log Users                    Alias            S-1-5-32-559                                     Mandatory group, Enabled by default, Enabled group             
+NT AUTHORITY\INTERACTIVE                         Well-known group S-1-5-4                                          Mandatory group, Enabled by default, Enabled group             
+CONSOLE LOGON                                    Well-known group S-1-2-1                                          Mandatory group, Enabled by default, Enabled group             
+NT AUTHORITY\Authenticated Users                 Well-known group S-1-5-11                                         Mandatory group, Enabled by default, Enabled group             
+NT AUTHORITY\This Organization                   Well-known group S-1-5-15                                         Mandatory group, Enabled by default, Enabled group             
+LOCAL                                            Well-known group S-1-2-0                                          Mandatory group, Enabled by default, Enabled group             
+CORP\gpinallindiausers                           Group            S-1-5-21-1531082355-734649621-3782574898-1765646 Mandatory group, Enabled by default, Enabled group             
+CORP\gpinsecureeasgradea                         Group            S-1-5-21-1531082355-734649621-3782574898-3449856 Mandatory group, Enabled by default, Enabled group             
+CORP\gpinpasswordpolicymembers                   Group            S-1-5-21-1531082355-734649621-3782574898-1761591 Mandatory group, Enabled by default, Enabled group             
+CORP\gpincustomeolregistrysetting                Group            S-1-5-21-1531082355-734649621-3782574898-2187291 Mandatory group, Enabled by default, Enabled group             
+CORP\gpinsecureeasaccess                         Group            S-1-5-21-1531082355-734649621-3782574898-3455818 Mandatory group, Enabled by default, Enabled group             
+CORP\gpcorcommunity_exception_authorization-user Group            S-1-5-21-1531082355-734649621-3782574898-4199597 Mandatory group, Enabled by default, Enabled group             
+CORP\gpino365capgemini                           Group            S-1-5-21-1531082355-734649621-3782574898-2521947 Mandatory group, Enabled by default, Enabled group             
+CORP\gpdenexus-ldap-auth-germany                 Group            S-1-5-21-1531082355-734649621-3782574898-3332070 Mandatory group, Enabled by default, Enabled group             
+CORP\gpinm1-transversal_cres_ijp-r1              Group            S-1-5-21-1531082355-734649621-3782574898-2205045 Mandatory group, Enabled by default, Enabled group             
+CORP\CorpOffice365Users                          Group            S-1-5-21-1531082355-734649621-3782574898-678569  Mandatory group, Enabled by default, Enabled group             
+CORP\dlinmumbaiall                               Group            S-1-5-21-1531082355-734649621-3782574898-2762230 Mandatory group, Enabled by default, Enabled group             
+CORP\gpcorpmduindiaa                             Group            S-1-5-21-1531082355-734649621-3782574898-5378546 Mandatory group, Enabled by default, Enabled group             
+CORP\dlingradea1                                 Group            S-1-5-21-1531082355-734649621-3782574898-5148038 Mandatory group, Enabled by default, Enabled group             
+CORP\gpcorpws1-mpdeployment-newjoiner            Group            S-1-5-21-1531082355-734649621-3782574898-4266055 Mandatory group, Enabled by default, Enabled group             
+CORP\dlinallcapgeminiindia1                      Group            S-1-5-21-1531082355-734649621-3782574898-2188045 Mandatory group, Enabled by default, Enabled group             
+CORP\gpcorpnomanageddevice                       Group            S-1-5-21-1531082355-734649621-3782574898-4553459 Mandatory group, Enabled by default, Enabled group             
+CORP\gpcorpintune_mobile_in_r                    Group            S-1-5-21-1531082355-734649621-3782574898-5084873 Mandatory group, Enabled by default, Enabled group             
+CORP\gpcorpo365capgemini                         Group            S-1-5-21-1531082355-734649621-3782574898-2396307 Mandatory group, Enabled by default, Enabled group             
+CORP\gpcorpintune_mobile_in_u                    Group            S-1-5-21-1531082355-734649621-3782574898-5050807 Mandatory group, Enabled by default, Enabled group             
+Authentication authority asserted identity       Well-known group S-1-18-1                                         Mandatory group, Enabled by default, Enabled group             
+CORP\gpdets-de-file13-hardware-r                 Alias            S-1-5-21-1531082355-734649621-3782574898-725960  Mandatory group, Enabled by default, Enabled group, Local Group
+CORP\FR-ICS-IMP_L_27-114                         Alias            S-1-5-21-1531082355-734649621-3782574898-361584  Mandatory group, Enabled by default, Enabled group, Local Group
+CORP\gpglobalclarityusers                        Alias            S-1-5-21-1531082355-734649621-3782574898-437663  Mandatory group, Enabled by default, Enabled group, Local Group
+CORP\gpcets-fs-ni-r2                             Alias            S-1-5-21-1531082355-734649621-3782574898-723681  Mandatory group, Enabled by default, Enabled group, Local Group
+CORP\Capgemini Regional Users                    Alias            S-1-5-21-1531082355-734649621-3782574898-221355  Mandatory group, Enabled by default, Enabled group, Local Group
+CORP\CERTSVC_DCOM_ACCESS                         Alias            S-1-5-21-1531082355-734649621-3782574898-478842  Mandatory group, Enabled by default, Enabled group, Local Group
+CORP\dlcoremaildlp                               Alias            S-1-5-21-1531082355-734649621-3782574898-2753230 Mandatory group, Enabled by default, Enabled group, Local Group
+CORP\gpcorpgooglepushmail                        Alias            S-1-5-21-1531082355-734649621-3782574898-885788  Mandatory group, Enabled by default, Enabled group, Local Group
+Mandatory Label\Medium Mandatory Level           Label            S-1-16-8192                                                                                                     
